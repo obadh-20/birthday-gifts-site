@@ -1,0 +1,79 @@
+
+body{
+   
+     font-family: 'Happy Monkey', cursive;
+   text-align: center;
+     background: linear-gradient(#a2d2ff,#efb0c9);
+     color:#ffffff ;
+    
+}
+#img-rounded{
+  border-radius: 50%;
+  width: 200px;
+  border: 7px solid #efb0c9;
+  margin-bottom: 10px;
+
+}
+h1,h2,h4,h3,p{
+  text-shadow: 0px 0px 4px black;
+}
+#header{
+display: flex;
+flex-direction: column;
+align-items:center;
+}
+#bdy-age{
+  background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+ 
+}
+#bdy-date{
+  margin: 0;
+  background: #EFB0C9;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.gifts{
+  width: 400px;
+  border: 6px solid white;
+  border-radius: 10px;
+  height: 400px;
+  background-image:url("imgs/gift-cover.jpg") ;
+  background-size:cover;
+  margin:0 auto ;
+
+}
+.gifts:hover{
+  background-image: url("imgs/brand_fragrances.jpg");
+  background-size: cover;
+}
+.bodyd{
+  margin-top: 40px;
+}
+#gift2:hover{
+  background-image: url("imgs/licensed-image.jfif");
+  background-size: cover;
+}
+#gift3:hover{
+  background-image: url("imgs/F5C61OpWoAAWe1n.jpg");
+  background-size: cover;
+}
+#gift4:hover{
+  background-image: url("imgs/5c17ec34ad687f6afd49c38ec9724dae.jpg");
+  background-size: cover;
+}
+#gift5{
+  height: 200px;
+}
+#gift5:hover{
+  background-image: url("imgs/8b5383b02c886f2b6f5f22a568d869ae.jpg");
+  background-size: cover;
+}
+#footer{
+  margin-top: 50px;
+}
+a{
+  color: white;
+}
